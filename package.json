@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/coulomblaw/",
     "preview": "vite preview",
-    "deploy": "gh-pages-deploy"
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "gh-pages-deploy": "^0.5.1",
