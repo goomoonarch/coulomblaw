@@ -32,7 +32,7 @@ Define un arreglo `charges` que contiene objetos, cada uno representando una car
 ### Constantes de la Ley de Coulomb
 ```javascript
 const k = 1.1e7;
-const minDistance = 35;
+const minDistance = 40;
 ```
 - `k`: Constante de Coulomb (en unidades adaptadas para el contexto del programa).
 - `minDistance`: Distancia mínima para considerar una interacción especial, en este caso para formar un dipolo y evitar la singularidad en cero ( es un método de agragar naturaleza corpuscular a las cargas ).
