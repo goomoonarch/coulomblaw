@@ -11,7 +11,7 @@ let charges = [
 ];
 
 const k = 1.1e7;
-const minDistance = 35;
+const minDistance = 40;
 
 function drawCharges() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
